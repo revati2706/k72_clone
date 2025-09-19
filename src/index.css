@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: font1 ;
+  src: url(../fonts/Lausanne-300.woff2);
+}
+@font-face {
+  font-family: font2 ;
+  src: url(../fonts/Lausanne-500.woff2);
+}
+
+.autoScroll {
+  display: inline-flex;           /* keep items in a row */
+  white-space: nowrap;            /* no line breaks */
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%); /* move exactly half because we duplicate content */
+  }
+}
+
+.movelink{
+  opacity: 0;
+  transition: trasnform(1.5);
+}
+
+.link .movelink:hover{
+  opacity: 1;
+}
