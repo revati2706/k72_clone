@@ -1,12 +1,31 @@
-# React + Vite
+K72 Clone 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Tailwind + GSAP clone of the K72
+ website.
+Built to practice animations, responsive layouts, and modern UI design.
 
-Currently, two official plugins are available:
+⚡ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive design with Tailwind CSS
 
-## Expanding the ESLint configuration
+Smooth GSAP scroll animations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Hover overlay effects on project cards
+
+Reusable Navbar & Footer components
+
+🚀 Run Locally
+# Clone the repo
+git clone https://github.com/revati2706/k72_clone.git
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+📜 Note
+
+This project is for learning purposes only.
+Design inspiration belongs to K72
+.
