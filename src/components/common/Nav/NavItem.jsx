@@ -1,9 +1,11 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 const NavItem = () => {
   return (
     <div className=" mt-[5vw] font-[font2]">
      
+      <Link to='/work'> 
       <div className=" link relative border-y-2 border-white h-[15vw] sm:h-[100px] md:h-[120px] lg:h-[135px] w-full flex justify-center items-center ">
         {" "}
         <h1 className=" leading-0 pt-6 text-white text-3xl sm:text-6xl md:text-7xl lg:text-9xl font-bold uppercase">
@@ -33,8 +35,10 @@ const NavItem = () => {
           </div>
         </div>
       </div>
-
-     <div className=" link relative border-y-2 border-white h-[15vw] sm:h-[100px] md:h-[120px] lg:h-[135px] w-full flex justify-center items-center ">
+      </Link>
+      
+     <Link to='/Agency'>
+      <div className=" link relative border-y-2 border-white h-[15vw] sm:h-[100px] md:h-[120px] lg:h-[135px] w-full flex justify-center items-center ">
         {" "}
         <h1 className=" leading-0 pt-2 text-white text-3xl sm:text-6xl md:text-7xl lg:text-9xl font-bold uppercase">
           Agecy
@@ -63,7 +67,11 @@ const NavItem = () => {
           </div>
         </div>
       </div>
-      <div className=" link relative border-y-2 border-white h-[15vw] sm:h-[100px] md:h-[120px] lg:h-[135px] w-full flex justify-center items-center ">
+     </Link>
+    
+
+     <Link to='/contact' >
+     <div className=" link relative border-y-2 border-white h-[15vw] sm:h-[100px] md:h-[120px] lg:h-[135px] w-full flex justify-center items-center ">
         {" "}
         <h1 className="  leading-0 pt-2 text-white text-3xl sm:text-6xl md:text-7xl lg:text-9xl font-bold uppercase">
           Contact
@@ -92,7 +100,9 @@ const NavItem = () => {
           </div>
         </div>
       </div>
-
+     </Link>
+      
+     <Link to='/blog' >
       <div className=" link relative border-y-2 border-white h-[15vw] sm:h-[100px] md:h-[120px] lg:h-[135px] w-full flex justify-center items-center ">
         {" "}
         <h1 className="  leading-0 pt-2 text-white text-3xl sm:text-6xl md:text-7xl lg:text-9xl font-bold uppercase">
@@ -122,6 +132,8 @@ const NavItem = () => {
           </div>
         </div>
       </div>
+     </Link>
+     
 
     </div>
   );
